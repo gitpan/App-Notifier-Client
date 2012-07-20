@@ -30,10 +30,11 @@ my %WriteMakefileArgs = (
     "LWP::UserAgent" => 0,
     "Pod::Usage" => 0,
     "URI" => 0,
+    "YAML::XS" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0101",
+  "VERSION" => "0.0102",
   "test" => {
     "TESTS" => "t/*.t"
   }

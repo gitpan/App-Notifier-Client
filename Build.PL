@@ -18,7 +18,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "App-Notifier-Client",
-  "dist_version" => "0.0101",
+  "dist_version" => "0.0102",
   "license" => "mit",
   "module_name" => "App::Notifier::Client",
   "recommends" => {},
@@ -28,6 +28,7 @@ my %module_build_args = (
     "LWP::UserAgent" => 0,
     "Pod::Usage" => 0,
     "URI" => 0,
+    "YAML::XS" => 0,
     "strict" => 0,
     "warnings" => 0
   },
