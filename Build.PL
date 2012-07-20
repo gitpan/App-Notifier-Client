@@ -18,7 +18,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "App-Notifier-Client",
-  "dist_version" => "0.0100",
+  "dist_version" => "0.0101",
   "license" => "mit",
   "module_name" => "App::Notifier::Client",
   "recommends" => {},
@@ -31,7 +31,10 @@ my %module_build_args = (
     "strict" => 0,
     "warnings" => 0
   },
-  "script_files" => []
+  "script_files" => [
+    "bin/notifier",
+    "bin/notifier"
+  ]
 );
 
 

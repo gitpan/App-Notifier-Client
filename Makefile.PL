@@ -19,7 +19,10 @@ my %WriteMakefileArgs = (
     "Module::Build" => "0.3601"
   },
   "DISTNAME" => "App-Notifier-Client",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/notifier",
+    "bin/notifier"
+  ],
   "LICENSE" => "mit",
   "NAME" => "App::Notifier::Client",
   "PREREQ_PM" => {
@@ -30,7 +33,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0100",
+  "VERSION" => "0.0101",
   "test" => {
     "TESTS" => "t/*.t"
   }
