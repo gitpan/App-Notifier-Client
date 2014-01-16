@@ -3,12 +3,16 @@ abstract: 'a client library for App::Notifier::Service'
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
   Module::Build: 0.3601
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 5.009, CPAN::Meta::Converter version 2.132830'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,10 +20,11 @@ meta-spec:
 name: App-Notifier-Client
 requires:
   Getopt::Long: 0
+  JSON::MaybeXS: 0
   LWP::UserAgent: 0
   Pod::Usage: 0
   URI: 0
   YAML::XS: 0
   strict: 0
   warnings: 0
-version: 0.0102
+version: 0.0200
