@@ -19,7 +19,7 @@ meta-spec:
   version: 1.4
 name: App-Notifier-Client
 requires:
-  Getopt::Long: 0
+  Getopt::Long: 2.36
   JSON::MaybeXS: 0
   LWP::UserAgent: 0
   Pod::Usage: 0
@@ -27,4 +27,4 @@ requires:
   YAML::XS: 0
   strict: 0
   warnings: 0
-version: 0.0200
+version: 0.0201

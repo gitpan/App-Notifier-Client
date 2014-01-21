@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "mit",
   "NAME" => "App::Notifier::Client",
   "PREREQ_PM" => {
-    "Getopt::Long" => 0,
+    "Getopt::Long" => "2.36",
     "JSON::MaybeXS" => 0,
     "LWP::UserAgent" => 0,
     "Pod::Usage" => 0,
@@ -42,7 +42,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.0200",
+  "VERSION" => "0.0201",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -51,7 +51,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "File::Spec" => 0,
-  "Getopt::Long" => 0,
+  "Getopt::Long" => "2.36",
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "JSON::MaybeXS" => 0,
