@@ -34,6 +34,7 @@ my %WriteMakefileArgs = (
     "URI" => 0,
     "YAML::XS" => 0,
     "strict" => 0,
+    "vars" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
@@ -42,7 +43,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.0201",
+  "VERSION" => "0.0202",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -62,6 +63,7 @@ my %FallbackPrereqs = (
   "URI" => 0,
   "YAML::XS" => 0,
   "strict" => 0,
+  "vars" => 0,
   "warnings" => 0
 );
 

@@ -11,6 +11,8 @@ bin/notifier
 dist.ini
 lib/App/Notifier/Client.pm
 lib/App/Notifier/Client/Notifier_App.pm
+scripts/bump-version-number.pl
 t/00-compile.t
+t/release-cpan-changes.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
