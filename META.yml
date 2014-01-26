@@ -25,7 +25,8 @@ requires:
   Pod::Usage: 0
   URI: 0
   YAML::XS: 0
+  perl: 5.012
   strict: 0
   vars: 0
   warnings: 0
-version: 0.0202
+version: 0.0203
